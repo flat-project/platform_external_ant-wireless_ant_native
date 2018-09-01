@@ -16,7 +16,7 @@
 
 include $(CLEAR_VARS)
 
-LOCAL_CFLAGS := -g -c -W -Wall -O2
+LOCAL_CFLAGS := -g -c -W -Wall -Wno-error -O2
 
 LOCAL_C_INCLUDES := \
    $(LOCAL_PATH)/src/common/inc \
